@@ -14,4 +14,3 @@
                src: "{{ item }}"
                dest: "/home/rocky/public_html/php-demo/{{ item }}"
            loop: "{{ file_list.stdout_lines }}"
-               
