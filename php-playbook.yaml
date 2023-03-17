@@ -1,5 +1,5 @@
 ---
-- hosts: dev 
+- hosts: test 
   tasks:
          - name: Get file name from latest commit from git 
            local_action: shell git show --pretty="" --name-only HEAD
