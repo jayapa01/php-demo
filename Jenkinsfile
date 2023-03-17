@@ -4,7 +4,7 @@ pipeline {
                 stage( "Create git tag for commit "){
                  steps{
                         sh """
-                          git tag -a v2.0.2  $GIT_COMMIT  -m "creating tag for head"
+                          git tag -a v2.0.3  $GIT_COMMIT  -m "creating tag for head"
                           """
                    }
              }
