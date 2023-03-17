@@ -35,7 +35,7 @@ function launchAction($controllerObj){
         $controllerObj->run(DEFECT_ACTION);
     }
 }
-/*
+
 function cargarControlador($controller){
 	// We create the Name of the controller: e.j. userController
     $controlador=ucwords($controller).'Controller';
@@ -51,5 +51,4 @@ function cargarControlador($controller){
     $controllerObj=new $controlador();
     return $controllerObj;
 }
-*/
 ?>
