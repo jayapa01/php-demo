@@ -10,7 +10,7 @@ pipeline {
              }
                stage( " update php server using ansible"){
                  steps{
-                        sh "ansible-playbook php-playbook.yaml -e ansible_password=Twright@123# "
+                        sh "ansible-playbook php-playbook.yaml -e ansible_password=Pre@12Red"
                    }
              }
        }
